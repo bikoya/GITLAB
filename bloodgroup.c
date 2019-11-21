@@ -7,7 +7,11 @@ void main()
   {
     printf("What is your Name? CHANGED FLAG ");
     scanf("%s", Name);
-    printf("B changed");
+<<<<<<< HEAD
+    printf("A changed");
+=======
+    printf("A changed");
+>>>>>>> 3491979013c1cf1e994328b42076a78261df0535
     do
     {
       printf("What is your blood group [A, B, AB, or O]?");
@@ -45,6 +49,11 @@ void main()
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
+<<<<<<< HEAD
   printf("Goodbye (USERB2)\n");
-  printf("B changed");
+  printf("A changed 2");
+=======
+  printf("Goodbye\n");
+  printf("A changed 2");
+>>>>>>> 3491979013c1cf1e994328b42076a78261df0535
 }
